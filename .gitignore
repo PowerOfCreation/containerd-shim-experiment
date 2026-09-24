@@ -1,0 +1,7 @@
+/out/
+*.test
+*.out
+
+# IDE
+.idea/
+.vscode/
