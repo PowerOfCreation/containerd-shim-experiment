@@ -48,7 +48,7 @@ the runtime name `io.containerd.mine.v1` and looks it up on `PATH`.
 
 ```sh
 sudo ctr image pull docker.io/library/busybox:1.37
-sudo ctr run --rm --runtime io.containerd.mine.v1 docker.io/library/busybox:1.37 test
+sudo ctr run --rm --runtime io.containerd.mine.v1 -t docker.io/library/busybox:1.37 test sh
 ```
 
 ## Expected result
