@@ -1,7 +1,7 @@
 # containerd-shim-mine
 
 Companion code for the blog post
-[The long way from `kubectl apply` to a running container](https://medium.com/@questerdesura/the-long-way-from-kubectl-apply-to-a-running-container-7ef4536d1312).
+[From runtimeClassName to runc: How Kubernetes Picks a Runtime](https://iits-consulting.de/en/blog/from-runtimeclassname-to-runc-how-kubernetes-picks-a-runtime).
 
 A minimal containerd v2 runtime shim (`io.containerd.mine.v1`) that shows how
 containerd finds, launches and talks to a shim.
